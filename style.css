@@ -16,17 +16,28 @@ html, body {
 	padding: 0;
 }
 
-table, th, td {
+table {
     border: 1px solid black;
     border-collapse: collapse;
+    width: 75%;
+    float: left;
 }
 
 th, td {
     padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 fieldset{
     margin-left: 100px;
     margin-top: 15px;
-    width: 230px;
+    margin-right:300px;
+}
+
+.totalCal{
+    font-weight: bold;
+    margin-left: 25px;
+    width: 20%;
+    float: right;
 }
